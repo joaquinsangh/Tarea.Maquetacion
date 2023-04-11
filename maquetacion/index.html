@@ -1,56 +1,167 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
-</head>
-<body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
-        <div id="header-left">
-            <img src="logo.svg">
-        </div>
-        <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
-        </div>
-    </div>
-    <div id="introduction" style="padding: 48px;">
-        <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
-        </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
-        </div>
-    </div>
-</body>
-</html>
+<!DOCTYPE html> 
+<html lang="en"> <head> 
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script src="https://kit.fontawesome.com/7112b632ac.js" crossorigin="anonymous"></script>
+<title>Xacademy Clase 1 maquetacion</title> 
+<style> 
+body { 
+    margin: 0; 
+} 
+
+p { 
+    margin-right: 40px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:small;
+    font-weight:lighter; 
+    cursor:pointer 
+}
+
+p:hover { 
+    background-color: white; 
+    color:#6b53f0 
+} 
+
+h1 { margin: 0px 310px; 
+    margin-top:  40px;
+    text-align: center; 
+    letter-spacing: -0.7px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:xx-large;
+    font-style: normal; 
+    font: weight 400; 
+    } 
+    
+button.redondo-1 { 
+    background-color: white;
+    border: 2px solid black; 
+    border-radius:  50px;
+    padding: 0px 20px; 
+    height: 32px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:small; ; 
+    font-weight:lighter; 
+    cursor:pointer 
+    } 
+    
+button.redondo-1:hover {
+     background-color: black; 
+     color: white; 
+     } 
+
+button.redondo-2 {
+    background-color: white; 
+    border: 2px solid black; 
+    border-radius: 25px; 
+    padding: 0px 20px; 
+    height: 32px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:small; ; 
+    font-weight:lighter; 
+    cursor:pointer 
+    } 
+button.redondo-2:hover { 
+    background-color: black; 
+    color:white 
+    } 
+button.redondo-3 {
+         background-color: white; 
+         border: 2px solid #6b53f0; 
+         border-radius: 25px; 
+         padding: 0px 20px; 
+         height: 32px; 
+         font-family:Arial, Helvetica, sans-serif; 
+         font-size:small;
+         font-weight:lighter; 
+         color: #6b53f0; 
+         cursor:pointer 
+         } 
+button.redondo-3:hover { 
+    background-color: #6b53f0; 
+    color:white 
+    } 
+    
+i { 
+    margin-left:  25px; 
+    cursor:pointer; 
+    } 
+    
+i:hover{ 
+    background-color: white; 
+    color: #6b53f0 
+    } 
+img{ 
+    cursor:pointer 
+    } 
+
+div#introduction-actions { 
+    display: flex; 
+    justify-content: center; 
+    } 
+    
+#introduction-text 
+    h1 { 
+        font-size: 1em; 
+        font-size: 28px; 
+        } 
+#introduction { 
+    padding: 48px; 
+    } 
+    
+#mi-black-block { 
+    background-color: #201B24; 
+    color: white; 
+    display: flex; 
+    padding: 140px; 
+    align-items: end; 
+    } 
+#mi-black-block p { 
+    font-size: 13px; 
+    } 
+
+     .numbers h2 { 
+        font-size: 40px; 
+        } 
+</style> 
+</head> 
+<body> 
+<div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between"> 
+    <div id="header-left"> <img src="logo.svg";> </div> 
+    <div id="header-right" style="display: flex; align-items: center; "> 
+        <p>Nosotros</p> 
+        <p>Programas</p> 
+        <p>Capacitaciones</p>
+        <p>Alianzas</p> 
+        <p>Contacto</p> 
+        <button class="redondo-1">Sumate +</button> 
+        <i class="fa-brands fa-instagram fa-sm"></i> 
+        <i class="fa-brands fa-linkedin-in fa-sm"></i> 
+    </div> 
+</div> 
+<div id="introduction" style="padding: 65px;">
+     <div id="introduction-text">
+         <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1> 
+        </div> 
+        <div id="introduction-actions" style="margin-top: 25px;"> 
+            <button class="redondo-2">Contactanos -> </button> 
+            <button class="redondo-3"style="margin-left:14px;">Sumate +</button>
+         </div> </div> <footer> <div id="mi-black-block"> 
+            <div id="footer-description"> <h2>. Impacto</h2> 
+                <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social. </p> 
+            </div> 
+            <div class="numbers"> 
+                <h2>58</h2> 
+                <p>Localidades</p> 
+            </div> 
+            <div class="numbers"> 
+                <h2>+50</h2> 
+                <p>Mentores</p> 
+            </div> <div class="numbers"> 
+                <h2>301</h2> 
+                <p>Participantes</p>
+             </div> 
+            </div> 
+        </footer> 
+    </body> 
+    </html>
